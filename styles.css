@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
-    border: 1px solid black;
+    
+    margin: 0;
+    padding: 0;
    
 }
 html{
@@ -15,79 +17,93 @@ body{
 }
 .header{
     display: flex;
-    gap: 10px;
-    
+    gap: 40px;
+    align-items: center;
     color: white;
-    background-color: #1F2937;
-    color: #F9FAF8
+    background-color: #000000;
+    color: #F9FAF8;
+    padding: 10px 150px;
 }
 .h1{
     margin-right: auto;
     font-size: 24px;
 }
+.h1 img{
+    max-width: 100px;
+}
 .rightsideh{
     font-size: 18px;
+    
     color: #E5E7EB;
 }
 .firstlayer{
     display: flex;
     background-color: #1F2937;
-    
+    padding: 30px 150px;
     justify-content: center;
+    gap:100px;
 }
-.leftsidefl{
+.leftsidefirstl{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 0px;
 }
 .maintextfl{
-    font-size: 48px;
+    font-size: 90px;
     color: #F9FAF8;
     font-weight: bolder;
 }
 .secondarytextfl{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 40px;
 }
 .button1{
-    background-color: #3882F6;
+    background-color:#1F2937;
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px 10px
+    padding: 5px 10px;
+    width: 100px;
+    border-color: white;
 }
-.rightsidefl{
+.rightsidefirstl{
+    display: flex;
     background-color: #1F2937;
 }
+.headerimage img{
+    max-width: 1000px;
+}
 .secondlayer{
-    padding: 20px;
+    padding: 30px 150px;
 }
 .titlesl{
     text-align: center;
-    padding: 5px;
+    padding: 0px 0px 30px 0px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 .pairholder{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
 }
 .pair{
-    max-width: 200px;
+    max-width: 500px;
     text-align: center;
 }
 .secondlayer img{
-    width:200px;
-    height: 200px;
+    width:500px;
+    
 }
 .thirdlayer{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    justify-content: center;
+    align-items: center;
+    padding: 30px 150px;
 }
 .quote{
     font-size: 36px;
@@ -95,22 +111,56 @@ body{
     color: #1F2937;
 }
 .quotecredit{
-
+    text-align: right;
 }
 .fourthlayer{
     display: flex;
+    justify-content: center;
+    padding: 70px 120px;
+}
+.containerfl{
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px 50px;
+    border-radius: 10px;
+    gap: 230px;
+    
 }
 .leftsidefl{
     display: flex;
     flex-direction: column;
+    gap: 0px;
+}
+.CTAfl{
+    font-size: 20px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+.textfl{
+    font-size: 14px;
+    color: #E5E7EB;
 }
 .rightsidefl{
-    display: flex;
+    align-self: center;
+
+}
+.rightside{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color:#1F2937;
+    border-color: #F9FAF8;
+    vertical-align: center;
+    width: 100px;
 }
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
+    color: #F9FAF8;
+    height: 100px;
 }
 a{
     text-decoration: none;
