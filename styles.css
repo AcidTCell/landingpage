@@ -154,6 +154,38 @@ body{
     vertical-align: center;
     width: 100px;
 }
+.fifthlayer{
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: center;
+    padding: 30px 150px;
+    gap: 100px;
+    
+}
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secondcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.thirdcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.thirdcolumn button{
+    padding: 5px 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border-radius: 5px;
+    
+}
+
 .footer{
     display: flex;
     justify-content: center;
@@ -167,3 +199,22 @@ a{
     color: white;
 
 }
+.firstcolumn a,
+.secondcolumn a,
+.thirdcolumn a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+  
+  .headerflfc{
+    font-weight: bold;
+  }
+  .headerflsc{
+    font-weight: bold;
+  }
+  .headerfltc{
+    font-weight: bold;
+  }
+
+ 
+  
