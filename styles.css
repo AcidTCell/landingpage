@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     border: 1px solid black;
-    margin: 0;
-    padding: 0;
+   
 }
 html{
     margin: 0;
@@ -12,25 +11,91 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    
 }
 .header{
     display: flex;
+    gap: 10px;
+    
+    color: white;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+.h1{
+    margin-right: auto;
+    font-size: 24px;
+}
+.rightsideh{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .firstlayer{
     display: flex;
+    background-color: #1F2937;
+    
+    justify-content: center;
 }
 .leftsidefl{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.maintextfl{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.secondarytextfl{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button1{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+.rightsidefl{
+    background-color: #1F2937;
 }
 .secondlayer{
-    
+    padding: 20px;
+}
+.titlesl{
+    text-align: center;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 .pairholder{
     display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.pair{
+    max-width: 200px;
+    text-align: center;
+}
+.secondlayer img{
+    width:200px;
+    height: 200px;
 }
 .thirdlayer{
     display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quotecredit{
+
 }
 .fourthlayer{
     display: flex;
@@ -46,4 +111,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+
 }
