@@ -160,6 +160,8 @@ body{
     justify-content: center;
     padding: 30px 150px;
     gap: 100px;
+    background-color: #1F2937;
+    
     
 }
 .firstcolumn{
@@ -183,6 +185,7 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     border-radius: 5px;
+    border-color: white;
     
 }
 
@@ -202,18 +205,22 @@ a{
 .firstcolumn a,
 .secondcolumn a,
 .thirdcolumn a{
-    color: rgb(0, 0, 0);
+    color:#E5E7EB;
     text-decoration: underline;
+    
 }
   
   .headerflfc{
     font-weight: bold;
+    color: #F9FAF8;
   }
   .headerflsc{
     font-weight: bold;
+    color: #F9FAF8;
   }
   .headerfltc{
     font-weight: bold;
+    color: #F9FAF8;
   }
 
  
