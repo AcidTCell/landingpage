@@ -29,10 +29,12 @@ body{
     font-size: 24px;
 }
 .h1 img{
-    max-width: 100px;
+    max-width: 120px;
+    padding-top: 5px;
+
 }
 .rightsideh{
-    font-size: 18px;
+    font-size: 16px;
     
     color: #E5E7EB;
 }
