@@ -188,6 +188,9 @@ body{
     border-color: white;
     
 }
+.thirdcolumn a{
+    text-decoration: none;
+}
 
 .footer{
     display: flex;
@@ -203,8 +206,7 @@ a{
 
 }
 .firstcolumn a,
-.secondcolumn a,
-.thirdcolumn a{
+.secondcolumn a{
     color:#E5E7EB;
     text-decoration: underline;
     
@@ -221,6 +223,9 @@ a{
   .headerfltc{
     font-weight: bold;
     color: #F9FAF8;
+  }
+  .pair a{
+    color: #000000;
   }
 
  
