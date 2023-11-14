@@ -93,11 +93,18 @@ body{
 .pair{
     max-width: 500px;
     text-align: center;
+    transition: transform ease 300ms;
 }
+.pair:hover {
+    transform: translate(0, -10px);
+    transform: scale(1.1);
+  }
 .secondlayer img{
     width:500px;
     
+    
 }
+
 .thirdlayer{
     display: flex;
     flex-direction: column;
