@@ -177,28 +177,35 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
 }
 .secondcolumn{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
 }
 .thirdcolumn{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-left: 100px;
     align-items: center;
+    justify-content: center;
 }
-.thirdcolumn button{
-    padding: 5px 10px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    border-radius: 5px;
-    border-color: white;
+.thirdcolumn img{
+    width: 120px;
+    transition: transform ease 300ms;
     
 }
+.thirdcolumn img:hover {
+    transform: translate(0, -10px);
+    transform: scale(1.1);}
+
 .thirdcolumn a{
     text-decoration: none;
+}
+.gplay img{
+    width: 135px;
 }
 
 .footer{
